@@ -7,7 +7,7 @@ const NavBar = () => {
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container justify-content-start">
-                    <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="logo-pokemon"/>
+                    <img src="/pokemon_pointer.png" alt="logo-pokemon"/>
                 </div>
                 <div className="container-fluid justify-content-end gap-3">
                     <NavLink className={setActiveClass} to='/'>Home</NavLink>
