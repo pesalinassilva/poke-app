@@ -22,7 +22,7 @@ const DetallePokemon = () => {
     return (
         <>
             {pokeDetalle &&
-                <div className="card mb-3" style={{maxWidth: '540px'}}>
+                <div className="card mb-3 container-fluid text-center mt-5" style={{maxWidth: '540px'}}>
                     <div className="row g-0">
                         <div className="col-md-4">
                             <img src={`${pokeDetalle.sprites.other["official-artwork"].front_default}`} className="img-fluid rounded-start" alt="..."/>

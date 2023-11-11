@@ -5,7 +5,7 @@ const NavBar = () => {
 
     return(
         <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg bg-secondary">
                 <div className="container justify-content-start">
                     <img src="/pokemon_pointer.png" alt="logo-pokemon"/>
                 </div>

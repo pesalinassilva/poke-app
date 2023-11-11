@@ -10,9 +10,9 @@ const Pokemones = () => {
     }
 
     return (
-        <>
-            <h1>Selecciona un pokemon: </h1>
-            <select className="form-select" aria-label="Default select example" value={pokemonSelect} onChange={updateSelect}>
+        <div className="container-fluid text-center w-50">
+            <h1 className="pt-4">Selecciona un pokemon: </h1>
+            <select className="form-select mb-2" aria-label="Default select example" value={pokemonSelect} onChange={updateSelect}>
                     <option defaultValue={null}>Pokemones</option>
                     {pokemones.map((pokemon) => (
                         <option key={`${pokemon.id}`} value={`${pokemon.name}`}>{pokemon.name}</option>
@@ -20,7 +20,7 @@ const Pokemones = () => {
                 }
             </select>
             <button type="button" className="btn btn-primary" onClick={detallePokemon}>Ver Detalle</button>
-        </>
+        </div>
     )
 }
 

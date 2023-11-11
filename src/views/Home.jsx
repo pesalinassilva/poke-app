@@ -12,12 +12,12 @@ const Home = () => {
     },[pokemones])
     
         return (
-        <>
-            <h1>Bienvenido a Maestro pokemon!</h1>
+        <div className="container-fluid text-center">
+            <h1 className="p-5">Bienvenido, Maestro Pokemon!</h1>
             {pikachu && (
                 <img src={`${pikachu.sprites.other["official-artwork"].front_default}`} className="img-fluid rounded-start" alt={`${pikachu.name}`}/>
             )}
-        </>
+        </div>
     )
 }
 
